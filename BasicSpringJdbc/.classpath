@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.jdbc-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.jdbc-sources-3.0.1.release-a.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/coded/spcorejars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hassan/Desktop/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
