@@ -33,6 +33,6 @@ public class Employee {
 	
 	public String greeting()
 	{
-		return "Hi and Hello";
+		return "Hello I am bean and injected into javax rs";
 	}
 }
