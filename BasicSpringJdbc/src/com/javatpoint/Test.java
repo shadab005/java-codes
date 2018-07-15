@@ -8,8 +8,8 @@ public static void main(String[] args) {
     ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");  
       
      EmployeeDao dao=(EmployeeDao)ctx.getBean("edao");  
-     int status=dao.saveEmployee(new Employee(5,"Nidhi",750));  
-     System.out.println(status);  
+     //int status=dao.saveEmployee(new Employee(5,"Nidhi",750));  
+    // System.out.println(status);  
           
     /*int status=dao.updateEmployee(new Employee(102,"Sonoo",15000)); 
     System.out.println(status); 
