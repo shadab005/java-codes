@@ -5,5 +5,7 @@
 	<classpathentry kind="lib" path="/Users/shassan/lab/jars/spring-core-3.1.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/shassan/lab/jars/org.springframework.beans.jar"/>
 	<classpathentry kind="lib" path="/Users/shassan/lab/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/shassan/lab/jars/spring-context-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/shassan/lab/jars/spring-beans-3.1.1.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

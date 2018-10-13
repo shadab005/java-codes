@@ -1,0 +1,11 @@
+{
+	"name": "Tesla",
+	"engine": {
+		"name": "xyz",
+		"speed": 10,
+		"company": {
+			"name": "Boring",
+			"locations": [ "India",	"US" ]
+		}
+	}
+}

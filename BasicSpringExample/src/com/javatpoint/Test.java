@@ -12,5 +12,10 @@ public static void main(String[] args) {
       
     Student student=(Student)factory.getBean("studentbean");  
     student.displayInfo();  
+    
+    System.out.println(student.getSubject().getName());
+    
+    Subject ss=(Subject)factory.getBean("subject");
+    System.out.println(ss.getName());
 }  
 }  

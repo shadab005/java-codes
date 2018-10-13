@@ -7,7 +7,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.javatpoint.model.Employee;
 
-
 /*
  * 
  * @RestController is a stereotype annotation that combines @ResponseBody and @Controller.  instead of annotating all your 
@@ -17,29 +16,30 @@ import com.javatpoint.model.Employee;
  */
 @RestController
 public class TestRestController {
-	
-	@RequestMapping("/heyy")  
-    public ModelAndView helloWorld() {  
-        String message = "Hello World!!";  
-        return new ModelAndView("hellopage", "message", message);  
-    }  
-	
-	@RequestMapping("/resthello")  
-    public String sayHello(){
-    	return "Hello Heyy!!";
-    }
-	
+
+	@RequestMapping("/heyy")
+	public ModelAndView helloWorld() {
+		String message = "Hello World!!";
+		return new ModelAndView("hellopage", "message", message);
+	}
+
+	@RequestMapping("/resthello")
+	public String sayHello() {
+		return "Hello Heyy!!";
+	}
+
 	/*
 	 * @ModelAttribute on a method argument
-	 * @ModelAttribute on a method argument indicates the argument should be retrieved from the model. 
-	 * If not present in the model, the argument should be instantiated first and then added to the model.
-	 * Once present in the model, the argument’s fields should be populated from all request parameters
-	 *  that have matching names.
-	 * Model clas should have default constructor
+	 * 
+	 * @ModelAttribute on a method argument indicates the argument should be
+	 * retrieved from the model. If not present in the model, the argument should be
+	 * instantiated first and then added to the model. Once present in the model,
+	 * the argumentï¿½s fields should be populated from all request parameters that
+	 * have matching names. Model clas should have default constructor
 	 */
 	@RequestMapping("/name/{name}/id/{id}/show")
-	public String processSubmit(@ModelAttribute Employee e) { 
-		
+	public String processSubmit(@ModelAttribute Employee e) {
+
 		return e.toString();
 	}
 
